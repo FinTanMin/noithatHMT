@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36908f5a-e668-4b1f-84b5-80af8b96c4b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/OrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/AdminOrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Middleware/AdminMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Models/Brand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Models/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Models/OrderDetail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Providers/FortifyServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/Providers/JetstreamServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/View/Components/AppLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/app/View/Components/GuestLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/config/fortify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/config/jetstream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/database/migrations/1023_10_20_141311_create_brand_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/database/migrations/2023_10_21_034613_create_sessions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698070315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698245527.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698246721.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698246775.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698246784.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698246802.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698246904.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698246983.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698246991.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698247009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698247036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698247228.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698247464.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698247652.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698247764.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698247913.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248055.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248228.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248583.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248658.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248814.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248830.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/1698248871.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/public/image/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/brand/list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/product/line.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/user/list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/brand.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/brand/list1.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/brand/list2.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/brand/list3.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/cart.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/category/list1.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/category/list2.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/category/list3.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/order/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/order/list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/ApiTokenPermissionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/AuthenticationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/BrowserSessionsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/CreateApiTokenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/DeleteAccountTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/DeleteApiTokenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/EmailVerificationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/PasswordConfirmationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/PasswordResetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/ProfileInformationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/RegistrationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/TwoFactorAuthenticationSettingsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noithatHMT/tests/Feature/UpdatePasswordTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/adminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/cartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/imageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/BrandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/admin/orderController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/customer/cartController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Http/Controllers/customer/productController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/config/sanctum.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/config/sanctum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/database/migrations/2023_10_12_071850_create_product_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/database/migrations/2023_10_12_071850_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/database/migrations/2023_10_12_071850_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/database/migrations/2023_10_18_123839_create_brand_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/NAV/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/cart/cartList.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/brand/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/order/orderAdd.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/category/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/order/orderDetail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/category/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/order/orderEdit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/order/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/order/orderList.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/order/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/product/productAdd.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/product/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/product/productEdit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/product/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/product/productList.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/product/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/user/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/admin/user/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/home/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/imageAdd.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/resources/views/admin/product/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noithatHMT/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/noithatHMT/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2X9Vbt4skgJCklODcHCPDl9EREn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36908f5a-e668-4b1f-84b5-80af8b96c4b0" name="Changes" comment="" />
+      <created>1698041356706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698041356706</updated>
+      <workItem from="1698041358890" duration="4000" />
+      <workItem from="1698243589550" duration="13000" />
+      <workItem from="1698422302155" duration="349000" />
+    </task>
+    <servers />
+  </component>
+</project>
